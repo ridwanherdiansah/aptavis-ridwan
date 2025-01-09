@@ -1,0 +1,15 @@
+#slidingContainerProject {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+#slidingContainerProject.show {
+    transform: translateX(0);
+}
+
+#slidingContainerTask {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+#slidingContainerTask.show {
+    transform: translateX(0);
+}
